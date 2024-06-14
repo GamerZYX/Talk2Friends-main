@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Talk2Friends</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password_hint">Password</string>
+    <string name="reserve_meeting">RSVP</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="meeting_name_hint">Meeting Name</string>
+    <string name="meeting_topic_hint">Topic</string>
+    <string name="meeting_time_hint">Time</string>
+    <string name="meeting_location_hint">Location</string>
+    <string name="name_hint">Name</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="username_hint">Username</string>
+    <string name="meetings">Meetings</string>
+    <string name="interest_hint">Interests</string>
+    <string name="notification">Username cannot be changed!</string>
+    <string name="notificationInterest">Use \", \" as the delimiter</string>
+    <string name="region_hint">Region</string>
+    <string name="notificationRegion">Fill in either \"international\" or \"native\"</string>
+    <string name="recommend_friends">Recommend Friends</string>
+    <string name="recommend_scroll_view_description">List of recommended users based on shared interests.</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="notificationEmail">Must use a valid USC email</string>
+    <string name="friends">Friends</string>
+    <string name="invite">Invite Friends</string>
+    <string name="send_invite">Send Invite Email</string>
+    <string-array name="dropdown_items">
+        <item>international</item>
+        <item>native</item>
+    </string-array>
+</resources>

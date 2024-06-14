@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView for displaying the user's interests -->
+    <TextView
+        android:id="@+id/myInterestTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <!-- TextView for the 'Recommend Users' label -->
+    <TextView
+        android:id="@+id/recommendUsersTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Recommend Users:"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <!-- Dynamic layout for recommendations -->
+    <LinearLayout
+        android:id="@+id/recommendationsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- Dynamically added TextViews will go here -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/invitePageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="invitePage"
+        android:text="@string/invite" />
+
+    <!-- Back Button to return to the main page -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="backToMain"
+        android:text="@string/back" />
+</LinearLayout>
+
+
+
